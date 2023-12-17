@@ -6,11 +6,11 @@
 		"type": "SqlServer",
 		"typeProperties": {
 			"connectionString": "integrated security=True;data source=DESKTOP-ME4TTJL;initial catalog=StackOverflow2010",
-			"userName": "Mary",
+			"userName": "DESKTOP-ME4TTJL\\Francis",
 			"alwaysEncryptedSettings": {
 				"alwaysEncryptedAkvAuthType": "ManagedIdentity"
 			},
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIwNDg2Y2QyMy0yODg1LTRjN2MtODFjYy01ZTcwNmQ4OTFlZGIiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJkNmY5YTgwYi03NWEwLTRkNjgtOThiNy1jYThmYzBlMzY1OGQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "SelfHostedntegrationRuntime1",
