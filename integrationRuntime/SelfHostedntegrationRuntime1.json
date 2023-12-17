@@ -1,0 +1,7 @@
+{
+	"name": "SelfHostedntegrationRuntime1",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "Used to connect to SQL Server"
+	}
+}
