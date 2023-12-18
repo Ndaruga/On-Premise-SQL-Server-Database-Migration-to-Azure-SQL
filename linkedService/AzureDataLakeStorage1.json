@@ -6,7 +6,7 @@
 		"type": "AzureBlobFS",
 		"typeProperties": {
 			"url": "https://stackoverflowdatalake.dfs.core.windows.net/",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI4MjhjZTNlYi05ZTM2LTQ1ZmUtYmM1Ni1hODdkMzM0ZTBlMzIiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJmNjAyM2FiZi04N2FmLTRhNjQtYjA2OC0yY2IzNTUzNzFiMjEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "SelfHostedntegrationRuntime1",
