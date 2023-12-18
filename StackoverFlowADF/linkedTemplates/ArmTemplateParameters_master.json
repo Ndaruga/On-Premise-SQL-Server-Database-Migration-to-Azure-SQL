@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "StackoverFlowADF"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"SqlServer1_connectionString": {
+			"value": "Integrated Security=True;Data Source=DESKTOP-ME4TTJL;Initial Catalog=StackOverflow2010"
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://stackoverflowdatalake.dfs.core.windows.net/"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://Stack-O-KeyVault.vault.azure.net/"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "DESKTOP-ME4TTJL\\Francis"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
