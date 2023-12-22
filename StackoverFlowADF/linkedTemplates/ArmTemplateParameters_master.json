@@ -8,6 +8,12 @@
 		"AzureDataLakeStorage1_accountKey": {
 			"value": ""
 		},
+		"AzureDatabricks1_accessToken": {
+			"value": ""
+		},
+		"AzureDatabricks2_accessToken": {
+			"value": ""
+		},
 		"SqlServer1_connectionString": {
 			"value": "Integrated Security=True;Data Source=DESKTOP-ME4TTJL;Initial Catalog=StackOverflow2010"
 		},
@@ -16,6 +22,12 @@
 		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"value": "https://stackoverflowdatalake.dfs.core.windows.net/"
+		},
+		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
+			"value": "1220-080140-9lccrpbh"
+		},
+		"AzureDatabricks2_properties_typeProperties_existingClusterId": {
+			"value": "1220-214213-rbh33kdd"
 		},
 		"AzureKeyVault1_properties_typeProperties_baseUrl": {
 			"value": "https://Stack-O-KeyVault.vault.azure.net/"
