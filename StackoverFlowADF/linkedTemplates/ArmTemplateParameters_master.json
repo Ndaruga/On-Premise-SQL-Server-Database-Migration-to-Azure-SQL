@@ -14,6 +14,9 @@
 		"AzureDatabricks2_accessToken": {
 			"value": ""
 		},
+		"AzureDatabricksDeltaLake1_accessToken": {
+			"value": ""
+		},
 		"SqlServer1_connectionString": {
 			"value": "Integrated Security=True;Data Source=DESKTOP-ME4TTJL;Initial Catalog=StackOverflow2010"
 		},
