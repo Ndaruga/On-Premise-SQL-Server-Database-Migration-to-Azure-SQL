@@ -1,5 +1,5 @@
-# On-Premise-Database-Migration-with-Realtime-sync
-#### Migrate an on-premise database to Azure SQL with real-time reports
+# On-Premise SQL Server Database Migration to Azure SQL
+#### Migrating StackOverflow Database to Azure SQL, Power BI Reporting, and Secure Integration with Azure Services
 ![image](https://github.com/Ndarugaa/On-Premise-Database-Migration-with-Realtime-sync/assets/68260816/8833acc1-426a-41a0-b052-95934996237b)
 
 >This repository contains a data engineering project that migrates data from an on-premise StackOverflow SQL Server database by Brent Ozar to Azure SQL and visualizes it with Power BI for reporting. The project uses a self-hosted integration runtime to connect the data from on-premise to Azure Data Lake Gen 2 using Azure Data Factory. Sensitive credentials are stored in Azure Key Vault, and transformations are done in three steps with Databricks.
@@ -51,6 +51,11 @@ Once you have set up the bronze, silver, and gold containers in the Datalake, yo
 3. Run the Databricks notebook `silver-to-gold` to transform the data in the silver container and load it into the gold container.
 4. Run the Databricks notebook `gold-to-SQL` to load the transformed data from the gold container to the Azure SQL Database.
 4. Connect Power BI to the Azure SQL Database to visualize the data.
+
+## Trigger
+Once the pipeline has run successfully, configure a trigger to run the pipeline at a specified time of your choice.
+
+For Instance, You could configure the trigger to execute the pipeline at exactly 00:00 or 16:00 every day 
 
 ## Contributing
 
